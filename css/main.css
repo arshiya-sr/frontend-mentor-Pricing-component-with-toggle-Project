@@ -6,7 +6,8 @@
 
     /* Gradient */
 
-    --button-gradient: linear-gradient(hsl(237, 73%, 79%), hsl(238, 63%, 64%));
+    --button-gradient: linear-gradient(90deg, hsl(237, 73%, 79%), hsl(238, 63%, 64%));
+    --gradient: linear-gradient(hsl(237, 73%, 79%), hsl(238, 63%, 64%));
 
     /* Neutral */
 
@@ -14,10 +15,15 @@
     --Gray-650: hsl(233, 13%, 49%);
     --Gray-700: hsl(232, 13%, 33%);
 
+    --White: hsl(0, 100%, 100%);
+
+    --Black-shadow: hsla(0, 1%, 76%, 0.6);
+
+    --light-black: hsl(0, 0%, 83%);
 
     /* Typography */
 
-    --font-family: 'Raleway', sans-serif;
+    --font-family: 'Montserrat', sans-serif;
     --font-size-base: 0.9375rem;
 
     /* sensible base for body text */
@@ -73,4 +79,5 @@ body {
     display: flex;
     flex-direction: column;
     position: relative;
+    background-color: var(--Blue-50);
 }
