@@ -17,6 +17,7 @@
     --Magenta: hsl(238, 63%, 64%);
 
     --White: hsl(0, 100%, 100%);
+    --White-light: hsla(0, 0%, 100%, 0.5);
 
     --Black-shadow: hsla(0, 1%, 76%, 0.6);
 
