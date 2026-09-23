@@ -102,6 +102,12 @@
 
 .price {
     display: flex;
+    font-size: var(--fs-gigantic);
+    color: var(--Gray-700);
+    font-weight: var(--fw-bold);
+    justify-content: center;
+    align-items: center;
+    gap: var(--space-sm);
 }
 
 .monthly {
@@ -150,15 +156,6 @@
     font-size: var(--fs-md);
     color: var(--Gray-650);
     margin: var(--space-lg) 0 0;
-}
-
-.price {
-    font-size: var(--fs-gigantic);
-    color: var(--Gray-700);
-    font-weight: var(--fw-bold);
-    justify-content: center;
-    align-items: center;
-    gap: var(--space-sm);
 }
 
 .dollar {
